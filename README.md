@@ -19,12 +19,12 @@ STQR Converter is a tool designed to extract data from STQR files and convert it
 ### Usage
 #### Extracting STQR to JSON:
 ```sh
-stqr_converter extract input.stqr output.json
+stqr_converter stqr2json input.stqr output.json
 ```
 
 #### Converting JSON back to STQR:
 ```sh
-stqr_converter pack input.json output.stqr
+stqr_converter json2stqr input.json output.stqr
 ```
 
 ### JSON Structure
@@ -60,12 +60,12 @@ STQR Converter — инструмент для извлечения данных
 ### Использование
 #### Извлечение STQR в JSON:
 ```sh
-stqr_converter extract input.stqr output.json
+stqr_converter stqr2json input.stqr output.json
 ```
 
 #### Конвертация JSON обратно в STQR:
 ```sh
-stqr_converter pack input.json output.stqr
+stqr_converter json2stqr input.json output.stqr
 ```
 
 ### Структура JSON
